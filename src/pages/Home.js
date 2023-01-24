@@ -1,19 +1,20 @@
 import React from 'react';
 import './Home.css';
+import {Link} from 'react-router-dom';
 //import SearchIcon from '@mui/icons-material/Search';
 
 function Home() {
   return (
     <div className='home'>
-        <h1>This is home page</h1>
         <div className='home_header'>
           <div className='home_headerLeft'>
-            {/* link */}
-            {/* link */}
+              <Link to='/about'>About</Link>
+              <Link to='/store'>Store</Link>
           </div>
           <div className='home_headerRight'>
-            {/* link */}
-            {/* link */}
+              <Link to='/gmail'>Gmail</Link>
+              <Link to='/images'>Images</Link>
+            
             {/* Icon */}
             {/* Avatar */}
           </div>
