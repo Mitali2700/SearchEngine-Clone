@@ -23,7 +23,7 @@ function Home() {
           </div>
         </div>
         <div className='home_body'>
-          
+          <img src="/logo-search.png" alt="" height="80"/>
         </div>
     </div>
   )
