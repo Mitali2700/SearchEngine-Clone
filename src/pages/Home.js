@@ -3,6 +3,7 @@ import './Home.css';
 import {Link} from 'react-router-dom';
 import AppsIcon from '@mui/icons-material/Apps';
 import { Avatar } from '@mui/material';
+import Search from './Search'
 
 function Home() {
   return (
@@ -16,15 +17,22 @@ function Home() {
               <Link to='/gmail'>Gmail</Link>
               <Link to='/images'>Images</Link>
 
-              <AppsIcon />
-              <Avatar />
+              <AppsIcon />             
             {/* Icon */}
+
+              <Avatar />
             {/* Avatar */}
           </div>
         </div>
         <div className='home_body'>
-          <img src="/logo-search.png" alt="" height="80"/>
+          <img src="/logo-search.png" alt="" height="150"/>
+          <div className='home_inputContainer'>
+          {/* search */}
+          <Search />
         </div>
+        </div>
+
+        
     </div>
   )
 }
