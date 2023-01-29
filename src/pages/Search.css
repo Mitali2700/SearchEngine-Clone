@@ -1,4 +1,4 @@
-.search_input
+ .search_input
 {
     display: flex;
     align-items: center;
@@ -9,7 +9,8 @@
     width: 75vw;
     margin: 0 auto;
     margin-top: 40px ;
-    min-width: 560px;
+    max-width: 540px;
+    
 }
 
 .search_input > input{
@@ -30,3 +31,20 @@
 .mic_Icon{
     color: #1f4a84 ;
 }
+
+.search_buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search_buttons button{
+    margin: 5px;
+    padding: 7px 15px;
+    background-color: #f8f8f8;
+    border: 1px solid white;
+    color: #1f4a84;
+    text-transform: inherit;
+
+}
+ 
