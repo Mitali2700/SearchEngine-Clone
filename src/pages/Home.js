@@ -25,7 +25,7 @@ function Home() {
           </div>
         </div>
         <div className='home_body'>
-          <img src="/logo-search.png" alt="" height="150"/>
+          <img src="/logo-search.png" alt="" height="100"/>
           <div className='home_inputContainer'>
           {/* search */}
           <Search />

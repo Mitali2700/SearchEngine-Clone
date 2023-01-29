@@ -10,7 +10,7 @@ function Search() {
       <div className='search_input'>
           <SearchIcon className='search_inputIcon'/>
           <input/>
-          <MicIcon />
+          <MicIcon className='mic_Icon'/>
       </div>  
     </div>
   )
