@@ -5,6 +5,11 @@ import MicIcon from '@mui/icons-material/Mic';
 import { Button } from '@mui/material';
 
 function Search() {
+
+  const search = e =>{
+    e.preventDefault(); //bxz of this function we don't need to refresh anything
+  }
+
   return (
     <div className='search'>
     {/* <h1>This is serch page</h1> */}
@@ -15,8 +20,8 @@ function Search() {
       </div> 
 
       <div className='search_buttons'>
-            <Button variant="outlined">TORCH SEARCH</Button>
-            <Button variant="outlined">I'M FEELING LUCKEY</Button>
+            <Button onClick={search} variant="outlined">Torch Search</Button>
+            <Button variant="outlined">I'm feeling luckey</Button>
           </div> 
     </div>
   )

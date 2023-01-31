@@ -14,8 +14,8 @@
  .home_header a{
     margin-right: 20px;
     text-decoration: inherit;
-    color: rgba(0, 0, 0,0.87);
-    font-size: 15px;
+    color: #1f4a84;
+    font-size: 17px;
  }
 
  .home_header a:hover {
@@ -42,4 +42,8 @@
 
  .home_body > img{
    object-fit: contain;
+ }
+
+ .app_icon{
+   color: #1f4a84;
  }

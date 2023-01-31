@@ -17,7 +17,7 @@ function Home() {
               <Link to='/gmail'>Gmail</Link>
               <Link to='/images'>Images</Link>
 
-              <AppsIcon />             
+              <AppsIcon className='app_icon'/>             
             {/* Icon */}
 
               <Avatar />

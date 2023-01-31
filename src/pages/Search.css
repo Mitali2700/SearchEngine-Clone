@@ -10,7 +10,6 @@
     margin: 0 auto;
     margin-top: 40px ;
     max-width: 540px;
-    
 }
 
 .search_input > input{
@@ -53,6 +52,6 @@
     background-image: -webkit-linear-gradient(top, #f8f8f8,#f1f1f1);
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
-    color: #222;
+    color: #1f4a84;
 }
  
