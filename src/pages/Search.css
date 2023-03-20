@@ -55,3 +55,6 @@
     color: pink;
 }
  
+.search_buttonsHidden{
+    display: none!important
+}

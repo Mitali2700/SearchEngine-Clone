@@ -28,7 +28,7 @@ function Home() {
           <img src="/logo-search.png" alt="" height="100"/>
           <div className='home_inputContainer'>
           {/* search */}
-          <Search />
+          <Search hideButtons />
         </div>
         </div>
 

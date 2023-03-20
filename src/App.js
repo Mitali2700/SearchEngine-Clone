@@ -1,25 +1,22 @@
 import React from "react";
 import './App.css';
 import Home from "./pages/Home"
-import Search from "./pages/Search"
+// import Search from "./pages/Search"
+import SearchPage from './pages/SearchPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     // change App into app bcz of BAM naming convention
-    // <div className="app">
-    // <h1>hello</h1>
+
     <BrowserRouter >
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/search" element={<Search/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route exact path="/search" element={<SearchPage/>}/>
+        
       </Routes>
     </BrowserRouter>
-     
-    // </div>
 
-   
-   
     
   );
 }
