@@ -1,9 +1,20 @@
 import React from 'react'
-import { useStateValue } from '../StateProvider'
+import { useStateValue } from './StateProvider'
+import useGoogleSearch from './useGoogleSearch';
 import './SearchPage.css'
+import Response from "./response"
+
 
 function SearchPage(){
-  const [{term}, dispatch] = useStateValue()
+  const [{term}, dispatch] = useStateValue();
+
+  // Live API call
+  //const {data} = useGoogleSearch(term); 
+
+  const data = Response;
+
+  console.log(data);
+  
   return (
     <div className='searchPage'>
     <div className='searchPage_header'>
