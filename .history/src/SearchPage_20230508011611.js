@@ -2,7 +2,7 @@ import React from 'react'
 import { useStateValue } from './StateProvider'
 import useGoogleSearch from './useGoogleSearch';
 import './SearchPage.css'
-//import Response from "./response"
+import Response from "./response"
 
 
 function SearchPage(){
