@@ -30,7 +30,7 @@ function SearchPage(){
       </Link>
       <div className='searchPage_headerBody'>
         <Search hideButtons/>
-        {/* <div className='searchPage_options'>
+        <div className='searchPage_options'>
           <div className='searchPage_optionsLeft'>
             <div className='searchPage_option'>
               <SearchIcon/>
@@ -66,7 +66,7 @@ function SearchPage(){
               <Link to="/tools">Tools</Link>
             </div>
         </div>
-      </div> */}
+      </div>
     </div>
     </div>
     {
