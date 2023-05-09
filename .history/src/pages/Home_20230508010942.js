@@ -10,16 +10,17 @@ function Home() {
     <div className='home'>
         <div className='home_header'>
           <div className='home_headerLeft'>
-              {/* <Link to='/about'>About</Link>
-              <Link to='/store'>Store</Link> */}
+              <Link to='/about'>About</Link>
+              <Link to='/store'>Store</Link>
           </div>
           <div className='home_headerRight'>
-              {/* <Link to='/gmail'>Gmail</Link> */}
-             
-              {/* <AppsIcon className='app_icon'/>              */}
+              <Link to='/gmail'>Gmail</Link>
+              <Link to='/images'>Images</Link>
+
+              <AppsIcon className='app_icon'/>             
             {/* Icon */}
 
-              {/* <Avatar /> */}
+              <Avatar />
             {/* Avatar */}
           </div>
         </div>

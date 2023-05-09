@@ -14,12 +14,13 @@ function Home() {
               <Link to='/store'>Store</Link> */}
           </div>
           <div className='home_headerRight'>
-              {/* <Link to='/gmail'>Gmail</Link> */}
-             
-              {/* <AppsIcon className='app_icon'/>              */}
+              <Link to='/gmail'>Gmail</Link>
+              {/* <Link to='/images'>Images</Link> */}
+
+              <AppsIcon className='app_icon'/>             
             {/* Icon */}
 
-              {/* <Avatar /> */}
+              <Avatar />
             {/* Avatar */}
           </div>
         </div>

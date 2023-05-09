@@ -14,7 +14,7 @@ function Home() {
               <Link to='/store'>Store</Link> */}
           </div>
           <div className='home_headerRight'>
-              {/* <Link to='/gmail'>Gmail</Link> */}
+              <Link to='/gmail'>Gmail</Link>
              
               {/* <AppsIcon className='app_icon'/>              */}
             {/* Icon */}
