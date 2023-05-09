@@ -113,12 +113,7 @@
       height: 60px;
       margin-right: 0;
     }
-    .searchPage_results{
-        max-width: 650px;
-        margin-top: 20px;
-        margin-left: 240px;
-        margin-bottom: 100px;
-    }
+  
     .searchPage_headerBody {
       flex-grow: 1;
       margin-left: 50px;
@@ -150,7 +145,7 @@
   @media (max-width: 767px) {
     .searchPage_header {
       flex-direction: column;
-      padding: 20px;
+     
     }
   
     .searchPage_logo {
@@ -160,7 +155,7 @@
     }
   
     .searchPage_headerBody {
-      /* max-width: none; */
+      max-width: none;
       margin-left: 0;
       
     }

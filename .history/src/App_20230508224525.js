@@ -4,7 +4,6 @@ import Home from "./pages/Home"
 // import Search from "./pages/Search"
 import SearchPage from './SearchPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ImagesPage from "./ImagesPage";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/search" element={<SearchPage/>}/>
-        <Route exact path="/images" element={<ImagesPage/>}/>
+        <Route exact path="/images" element={<Ima/>}
       </Routes>
     </BrowserRouter>
 

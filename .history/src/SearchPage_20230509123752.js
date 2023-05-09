@@ -4,9 +4,9 @@ import { useStateValue } from './StateProvider'
 import './SearchPage.css'
 import Response from "./response"
 import {Link} from 'react-router-dom';
-// import SearchIcon from '@mui/icons-material/Search';
-// import DescriptionIcon from '@mui/icons-material/Description';
-// import ImageIcon from '@mui/icons-material/Image';
+import SearchIcon from '@mui/icons-material/Search';
+import DescriptionIcon from '@mui/icons-material/Description';
+import ImageIcon from '@mui/icons-material/Image';
 import Search from '../src/pages/Search';
 // import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 // import RoomIcon from '@mui/icons-material/Room';

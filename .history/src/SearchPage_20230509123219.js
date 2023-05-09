@@ -4,13 +4,13 @@ import { useStateValue } from './StateProvider'
 import './SearchPage.css'
 import Response from "./response"
 import {Link} from 'react-router-dom';
-// import SearchIcon from '@mui/icons-material/Search';
-// import DescriptionIcon from '@mui/icons-material/Description';
-// import ImageIcon from '@mui/icons-material/Image';
+import SearchIcon from '@mui/icons-material/Search';
+import DescriptionIcon from '@mui/icons-material/Description';
+import ImageIcon from '@mui/icons-material/Image';
 import Search from '../src/pages/Search';
-// import LocalOfferIcon from '@mui/icons-material/LocalOffer';
-// import RoomIcon from '@mui/icons-material/Room';
-// import MoreVertIcon from '@mui/icons-material/MoreVert';
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import RoomIcon from '@mui/icons-material/Room';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 function SearchPage(){
   const [{term='tesla'}, dispatch] = useStateValue();
@@ -30,7 +30,7 @@ function SearchPage(){
       </Link>
       <div className='searchPage_headerBody'>
         <Search hideButtons/>
-        {/* <div className='searchPage_options'>
+        <div className='searchPage_options'>
           <div className='searchPage_optionsLeft'>
             <div className='searchPage_option'>
               <SearchIcon/>
@@ -38,7 +38,7 @@ function SearchPage(){
             </div>
             <div className='searchPage_option'>
               <DescriptionIcon/>
-              <Link to="/all">News</Link>
+              <Link to="/search">News</Link>
             </div>
             <div className='searchPage_option'>
               <ImageIcon/>
@@ -66,7 +66,7 @@ function SearchPage(){
               <Link to="/tools">Tools</Link>
             </div>
         </div>
-      </div> */}
+      </div>
     </div>
     </div>
     {

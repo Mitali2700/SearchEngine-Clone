@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 // import Search from "./pages/Search"
 import SearchPage from './SearchPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ImagesPage from "./ImagesPage";
+import ImagesPage from "./pages/ImagesPage";
 
 function App() {
   return (
